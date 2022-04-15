@@ -26,6 +26,14 @@
             echo "Tous les canards flottent, même les leurres !";
         }
 
+        public function setComportementVol(ComportementVol $cv) {
+            $this->comportementVol = $cv;
+        }
+
+        public function setComportementCancan(ComportementCancan $cc) {
+            $this->comportementCancan = $cc;
+        }
+        
     }
 
 ?>
